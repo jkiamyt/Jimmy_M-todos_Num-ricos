@@ -1,0 +1,10 @@
+"""
+Create a function that takes a string and returns the number (count) of vowels contained within it.
+"""
+def count_vowels(txt):
+	v = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+	count = 0  
+	for l in txt:
+		if l in v:
+			count += 1
+	return count
