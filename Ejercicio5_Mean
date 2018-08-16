@@ -1,0 +1,11 @@
+"""
+Create a function that takes a list of numbers and returns the mean value.
+"""
+def mean(lst):
+	x1 = 0
+	x2 = 0
+	z = len(lst)
+	while x1 != z:
+		x2 = x2 + lst[x1]
+		x1 += 1 
+	return(round(x2/z, 2))
